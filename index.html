@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Produtividade</title>
+</head>
+<body>
+    <div id="perguntaescolha">
+        <label for="resposta_escolha">Seu dia foi produtivo?</label>
+        <select id="resposta_escolha">
+            <!-- select é a caixa de seleção -->
+            <option value="sim">Sim</option>
+            <option value="maisoumenos">Mais ou menos</option>
+            <option value="nao">Não</option>
+            <!-- option value seria oq vai dentro dessa caixinha, o value seria oq vai para o js -->
+        </select>
+
+    </div>
+
+    <button onclick="enviar()">Enviar</button>
+
+    <p id="respostas"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
